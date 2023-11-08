@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.jpg" type="image/icon type">
+    <title>KEC|Login</title>
+    
+	<style>
+		
+		html,body{
+			height: 100%;
+			margin: 0%;
+			padding: 0%;
+			background-color: #ffffff;
+		}
+		.container-fluid{
+			display: table;
+			height: 100%;
+			margin: 0 auto;
+			box-shadow: none;
+		}
+		.myform{
+			display: table-cell;
+			vertical-align: middle;
+			box-shadow: none;
+		}
+		#forms{
+			max-width:450px;
+			box-shadow: none;
+			border-radius: 10px;
+			-webkit-box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
+  			box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
+		}
+
+		.free-course-btn{
+			background-color: #16191F;
+			color: white;
+			font-size: 15px;
+			padding: 10px 15px;
+			}
+			.free-course-btn:hover{
+			background-color: #16191fe2;
+			color: white;
+			}
+		.small mt-3 text-dark{
+		margin-top:0px;
+		}
+		/* {
+			width: 60px;
+		} */
+		a{
+			text-decoration: none;
+		}
+	</style>
+
+  </head>
+  <body>
+<br><br><br><br><br> 
+<center>
+      <div class="container-fluid"  id="login-bg">
+			  <div class="myform">
+				
+					<form action="adminphp.php" class="myform" method="POST" id="forms">
+						<h2 style="color:white;">Admin Login</h2><br>
+						<div class="form-group">
+							<input type="email"  name="email" class="form-control my-input"  placeholder="Enter email id" required>
+						</div><br>
+						<div class="form-group">
+							<input type="password" name="password" class="form-control my-input" placeholder="Enter valid password" required>
+						</div><br>
+						   <button type="submit" class=" btn btn-block free-course-btn">Login</button>				
+					 </form>
+			  </div>
+	</div>
+</center>
+	
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
